@@ -1,12 +1,15 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Chargify Accordion Tool",
+  "version": "0.3",
   "description": "Allows Chargify Product Headings to collapse content on click",
-  "version": "0.2",
   "content_scripts": [
     {
       "matches": [
         "https://*.chargify.com/products"
+      ],
+      "css": [
+        "mystyles.css"
       ],
       "js": [
         "jquery-3.2.1.min.js",
