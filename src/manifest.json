@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*.chargify.com/products"
+        "https://*.chargify.com/products*"
       ],
       "css": [
         "mystyles.css"
